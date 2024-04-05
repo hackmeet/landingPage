@@ -14,7 +14,7 @@ body {
 }
 
 .navigationBar {
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   width: 88px;
   height: 100vh;
   background-color: #ffffff;
@@ -23,24 +23,30 @@ body {
   border-radius: 0px 24px 24px 0px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  /* align-items: center; */
 }
 
 .icons {
+  padding-left: 25px ; 
   display: flex;
   flex-direction: column;
   height: 10px;
   width: 10px;
+
 }
 
 .icons div {
-  /* margin-top: 4vh; */
-  margin: 2vh 0;
+  padding: 15px 0;
 }
 
 .icon {
   margin-top: 2vh;
   cursor: pointer;
+}
+
+.accops{
+  margin-left: -14px;
 }
 
 header {
@@ -91,5 +97,10 @@ header {
 }
 
 .userProfile{
-  margin-top: 28vh !important;
+  margin-top: 18vh !important;
+}
+
+.copyright{
+  font-size: 10px;
+  color: #837e7e;
 }
