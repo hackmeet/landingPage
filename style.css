@@ -35,18 +35,23 @@ body {
   width: 10px;
 
 }
-
+/* 
 .icons div {
   padding: 15px 0;
-}
+} */
 
 .icon {
   margin-top: 2vh;
   cursor: pointer;
 }
+.pos {
+  margin: 40px 2px 15px 5px;
+  cursor: pointer;
+}
 
 .accops{
-  margin-left: -14px;
+  margin-top: 257px;
+  margin-left: 14px;
 }
 
 header {
@@ -75,6 +80,7 @@ header {
   line-height: 26px;
   text-align: left;
   color: #101840;
+
 }
 
 .search input {
@@ -96,11 +102,20 @@ header {
   cursor: pointer;
 }
 
-.userProfile{
-  margin-top: 18vh !important;
+.userProfile {
+  /* position: fixed; */
+  margin-top: 62vh;
+  padding-left: 25px ; 
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: 10px;
+  width: 10px;
+  
 }
 
 .copyright{
   font-size: 10px;
   color: #837e7e;
+  margin-left: 29px;
+
 }
